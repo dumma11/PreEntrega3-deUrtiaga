@@ -1,6 +1,5 @@
 /* SERVICIOS */
 .accordion {
-    /* --bs-accordion-color: yellow;    color de la letra */
     --bs-accordion-bg: #d8d8d8; /*Fondo*/
     --bs-accordion-btn-bg: rgb(218, 218, 218); /*fondo de boton no seleccionado*/
     --bs-accordion-active-color: rgb(255, 255, 255); /*color de letra seleccionada*/
@@ -47,7 +46,7 @@
     width: 50%;
     display: flex;
     justify-content: end;
-}
-.body-video video {
-    width: 100px;
+    video {
+        width: 100px;
+    }
 }

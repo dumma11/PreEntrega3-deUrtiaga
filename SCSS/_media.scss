@@ -5,12 +5,12 @@
     }    
     .fila {
         height: 195px;
-    }
-    .fila img {
-        height: 150px;
-    }
-    .fila img:hover {
-        height: 154px;
+        img {
+            height: 150px;
+            &:hover {
+                height: 154px;
+            }
+        }
     }
     /* CONTACTO */
     .maincontacto {
@@ -24,13 +24,13 @@
     }
     .fila {
         height: 145px;
-    }
-    .fila img {
-        height: 100px;
-        margin: 30px 4px 10px 10px;
-    }
-    .fila img:hover {
-        height: 105px;
+        img {
+            height: 100px;
+            margin: 30px 4px 10px 10px;
+            &:hover {
+                height: 105px;
+            }
+        }
     }
     /* CONTACTO */
     .maincontacto {
@@ -54,10 +54,6 @@
     .equipobarber {
         height: 500px;
     }
-    .tarjetabarbero {
-        height: 380px;
-        margin: 0px 5px;
-    }
     .obbarbero {
         width: 200px;
         /* margin-top: 10px; */
@@ -65,7 +61,11 @@
     .barbero {
         width: 180px;
     }
-    .tarjetabarbero:hover .barbero{
-        width: 200px;
+    .tarjetabarbero {
+        height: 380px;
+        margin: 0px 5px;
+        &:hover .barbero {
+                width: 200px;
+        }
     }
 }

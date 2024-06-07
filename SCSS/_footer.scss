@@ -21,16 +21,16 @@ footer {
 }
 .footer-enlaces {
     grid-area: areafooterenlaces;
-}
-.footer-enlaces ul {
-    height: 47px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer-enlaces li {
-    list-style-type: none;
-    margin: 0% 2%;
+    ul {
+        height: 47px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li {
+        list-style-type: none;
+        margin: 0% 2%;
+    }
 }
 .footer-nav ul {
     grid-area: areafooternav;
@@ -40,11 +40,11 @@ footer {
     justify-content: center;
     height: 40px;
     align-items: center;
-}
-.footer-nav ul li a {
-    margin: 0px 20px;
-    color: rgb(49, 32, 32);
-    text-decoration: none;
+    li a {
+        margin: 0px 20px;
+        color: rgb(49, 32, 32);
+        text-decoration: none;
+    }
 }
 .footer-datos {
     grid-area: areafooterdatos;

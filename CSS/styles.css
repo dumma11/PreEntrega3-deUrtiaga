@@ -52,14 +52,12 @@ footer {
 .footer-enlaces {
   grid-area: areafooterenlaces;
 }
-
 .footer-enlaces ul {
   height: 47px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .footer-enlaces li {
   list-style-type: none;
   margin: 0% 2%;
@@ -74,7 +72,6 @@ footer {
   height: 40px;
   align-items: center;
 }
-
 .footer-nav ul li a {
   margin: 0px 20px;
   color: rgb(49, 32, 32);
@@ -107,13 +104,11 @@ footer {
   display: flex;
   overflow-x: auto;
 }
-
 .fila img {
   height: 200px;
   margin: 30px 4px 10px 10px;
   box-shadow: 0px 1px 4px rgb(0, 0, 0);
 }
-
 .fila img:hover {
   box-shadow: 0px 1px 15px rgb(0, 0, 0);
   height: 204px;
@@ -194,7 +189,9 @@ select {
   border: 1px solid transparent;
 }
 
-.nombrebarbero, .obbarbero, .enbarbero {
+.nombrebarbero,
+.obbarbero,
+.enbarbero {
   opacity: 0.2;
   transition: opacity 0.5s;
 }
@@ -205,23 +202,17 @@ select {
   text-align: center;
 }
 
-.enbarbero {
-  /* justify-content: end; */
+.barbero {
+  width: 200px;
 }
 
 .tarjetabarbero:hover {
   border: 1px solid black;
   box-shadow: 0px 1px 6px rgb(0, 0, 0);
 }
-
-.barbero {
-  width: 200px;
-}
-
 .tarjetabarbero:hover .barbero {
   width: 240px;
 }
-
 .tarjetabarbero:hover .nombrebarbero,
 .tarjetabarbero:hover .obbarbero,
 .tarjetabarbero:hover .enbarbero {
@@ -231,7 +222,6 @@ select {
 
 /* SERVICIOS */
 .accordion {
-  /* --bs-accordion-color: yellow;    color de la letra */
   --bs-accordion-bg: #d8d8d8; /*Fondo*/
   --bs-accordion-btn-bg: rgb(218, 218, 218); /*fondo de boton no seleccionado*/
   --bs-accordion-active-color: rgb(255, 255, 255); /*color de letra seleccionada*/
@@ -288,7 +278,6 @@ select {
   display: flex;
   justify-content: end;
 }
-
 .body-video video {
   width: 100px;
 }
@@ -345,16 +334,16 @@ select {
   .equipobarber {
     height: 500px;
   }
-  .tarjetabarbero {
-    height: 380px;
-    margin: 0px 5px;
-  }
   .obbarbero {
     width: 200px;
     /* margin-top: 10px; */
   }
   .barbero {
     width: 180px;
+  }
+  .tarjetabarbero {
+    height: 380px;
+    margin: 0px 5px;
   }
   .tarjetabarbero:hover .barbero {
     width: 200px;
