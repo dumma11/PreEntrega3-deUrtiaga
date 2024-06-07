@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.portada {
+    width: 100%;
+}
+a {
+    font-family: "Roboto", sans-serif;
+}
+h2 {
+    font-family: "Freeman", sans-serif;
+}
+p {
+    font-family: "Roboto", sans-serif;
+}
+/* HEADER */
+header {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.295);
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+/* MAIN EQUIPO */
+.mainequipo {
+    background-color: rgba(71, 55, 9, 0.116);
+}
+.titulo-equipo {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.equipobarber {
+    height: 500px;
+    display: flex;
+    overflow-x: auto;
+}
+.tarjetabarbero {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+    border: 1px solid transparent;
+}
+.nombrebarbero, .obbarbero, .enbarbero {
+    opacity: 0.2;
+    transition: opacity 0.5s;
+}
+.obbarbero {
+    background-color: #837c67;
+    width: 255px;
+    text-align: center;
+}
+.enbarbero {
+    /* justify-content: end; */
+}
+.tarjetabarbero:hover {
+    border: 1px solid black;
+    box-shadow: 0px 1px 6px rgb(0, 0, 0);
+}
+.barbero {
+    width: 200px;
+}
+.tarjetabarbero:hover .barbero{
+    width: 240px;
+}
+.tarjetabarbero:hover .nombrebarbero, 
+.tarjetabarbero:hover .obbarbero,
+.tarjetabarbero:hover .enbarbero {
+    opacity: 1;
+    text-decoration: solid;
+}
+/* SERVICIOS */
+.accordion {
+    /* --bs-accordion-color: yellow;    color de la letra */
+    --bs-accordion-bg: #d8d8d8; /*Fondo*/
+    --bs-accordion-btn-bg: rgb(218, 218, 218); /*fondo de boton no seleccionado*/
+    --bs-accordion-active-color: rgb(255, 255, 255); /*color de letra seleccionada*/
+    --bs-accordion-active-bg: #837c67; /*color de fondo seleccionado */
+    --bs-accordion-btn-color: rgb(78, 62, 8); /*Letra no seleccionada */
+}
+.main-servicios {
+    background-color: rgba(71, 55, 9, 0.116);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accordion-body-principal {
+    border: 1px solid #000000;
+}
+.accordion-header-principal {
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+.titulo-servicios {
+    padding: 20px;
+}
+.primer-item-interior{
+    background-color: rgba(71, 55, 9, 0.116);
+    margin-top: 2%;
+    border: 1px solid #000000;
+}
+.item-interior {
+    background-color: rgba(71, 55, 9, 0.116);
+    margin-top: 1px;
+    border: 1px solid #000000;
+}
+.bodyinterno {
+    display: flex;
+}
+.body-tex {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.body-video {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.body-video video {
+    width: 100px;
+}
+/* GALERIA */
+.titulo-galeria{
+    display: flex;
+    justify-content: center;
+}
+.maingaleria {
+    background-color: rgba(71, 55, 9, 0.116);
+    display: flex;
+    flex-direction: column;
+    padding: 40px 5px;
+}
+.fila {
+    height: 260px;
+    display: flex;
+    overflow-x: auto;
+}
+.fila img {
+    height: 200px;
+    margin: 30px 4px 10px 10px;
+    box-shadow: 0px 1px 4px rgb(0, 0, 0);
+}
+.fila img:hover {
+    box-shadow: 0px 1px 15px rgb(0, 0, 0);
+    height: 204px;
+}
+/* CONTACTO */
+.maincontacto {
+    background-color: rgba(71, 55, 9, 0.116);
+    padding: 40px 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 50px repeat(2, 300px);
+    grid-template-areas:
+    "areatitulo areatitulo"
+    "areaform areamapa"
+    "areaform areadatos";
+    justify-content: center;
+    gap: 10px;
+}
+.titulo-contacto {
+    grid-area: areatitulo;
+    display: flex;
+    justify-content: center;
+}
+.mapa-contacto {
+    grid-area: areamapa;
+    box-shadow: 0px 1px 2px rgb(0, 0, 0);
+}
+.datos-contacto {
+    grid-area: areadatos;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formulario-contacto {
+    grid-area: areaform;
+}
+input {
+    margin-bottom: 20px;
+    width: 70%
+}
+select {
+    margin-bottom: 20px;
+}
+.textoform {
+    width: 70%;
+    height: 200px;
+}
+/* FOOTER */
+footer {
+    background-color: rgb(105, 105, 105);
+    color: rgb(68, 68, 68);
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px repeat(3, 40px);
+    grid-template-areas:
+    "areafooterlogo"
+    "areafooterenlaces"
+    "areafooternav"
+    "areafooterdatos";
+    justify-content: center;
+    gap: 10px;
+}
+.footer-logo {
+    grid-area: areafooterlogo;
+    display: flex;
+    justify-content: center;
+}
+.footer-enlaces {
+    grid-area: areafooterenlaces;
+}
+.footer-enlaces ul {
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-enlaces li {
+    list-style-type: none;
+    margin: 0% 2%;
+}
+.footer-nav ul {
+    grid-area: areafooternav;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+.footer-nav ul li a {
+    margin: 0px 20px;
+    color: rgb(49, 32, 32);
+    text-decoration: none;
+}
+.footer-datos {
+    grid-area: areafooterdatos;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media (max-width:950px) {
+    /* GALERIA */
+    .maingaleria {
+        padding: 30px 5px;
+    }    
+    .fila {
+        height: 195px;
+    }
+    .fila img {
+        height: 150px;
+    }
+    .fila img:hover {
+        height: 154px;
+    }
+    /* CONTACTO */
+    .maincontacto {
+        padding: 40px 10px; 
+    }
+}
+@media (max-width:500px) {
+    /* GALERIA */
+    .maingaleria {
+        padding: 30px 5px;
+    }
+    .fila {
+        height: 145px;
+    }
+    .fila img {
+        height: 100px;
+        margin: 30px 4px 10px 10px;
+    }
+    .fila img:hover {
+        height: 105px;
+    }
+    /* CONTACTO */
+    .maincontacto {
+        padding: 40px 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px repeat(2, 200px) 450px;
+        grid-template-areas:
+        "areatitulo"
+        "areamapa"
+        "areadatos"
+        "areaform";
+    }
+    input {
+        width: 100%
+    }
+    .textoform {
+        width: 100%;
+        height: 150px;
+    }
+    /* MAIN EQUIPO */
+    .equipobarber {
+        height: 500px;
+    }
+    .tarjetabarbero {
+        height: 380px;
+        margin: 0px 5px;
+    }
+    .obbarbero {
+        width: 200px;
+        /* margin-top: 10px; */
+    }
+    .barbero {
+        width: 180px;
+    }
+    .tarjetabarbero:hover .barbero{
+        width: 200px;
+    }
+}

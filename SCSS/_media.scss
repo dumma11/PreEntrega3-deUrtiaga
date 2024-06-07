@@ -1,0 +1,71 @@
+@media (max-width:950px) {
+    /* GALERIA */
+    .maingaleria {
+        padding: 30px 5px;
+    }    
+    .fila {
+        height: 195px;
+    }
+    .fila img {
+        height: 150px;
+    }
+    .fila img:hover {
+        height: 154px;
+    }
+    /* CONTACTO */
+    .maincontacto {
+        padding: 40px 10px; 
+    }
+}
+@media (max-width:500px) {
+    /* GALERIA */
+    .maingaleria {
+        padding: 30px 5px;
+    }
+    .fila {
+        height: 145px;
+    }
+    .fila img {
+        height: 100px;
+        margin: 30px 4px 10px 10px;
+    }
+    .fila img:hover {
+        height: 105px;
+    }
+    /* CONTACTO */
+    .maincontacto {
+        padding: 40px 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px repeat(2, 200px) 450px;
+        grid-template-areas:
+        "areatitulo"
+        "areamapa"
+        "areadatos"
+        "areaform";
+    }
+    input {
+        width: 100%
+    }
+    .textoform {
+        width: 100%;
+        height: 150px;
+    }
+    /* MAIN EQUIPO */
+    .equipobarber {
+        height: 500px;
+    }
+    .tarjetabarbero {
+        height: 380px;
+        margin: 0px 5px;
+    }
+    .obbarbero {
+        width: 200px;
+        /* margin-top: 10px; */
+    }
+    .barbero {
+        width: 180px;
+    }
+    .tarjetabarbero:hover .barbero{
+        width: 200px;
+    }
+}
