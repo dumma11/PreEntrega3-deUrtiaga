@@ -3,6 +3,7 @@ footer {
     background-color: rgb(105, 105, 105);
     color: rgb(68, 68, 68);
     padding-top: 10px;
+    height: 300px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 80px repeat(3, 40px);
@@ -51,5 +52,4 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
 }
