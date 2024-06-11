@@ -11,20 +11,20 @@
 }
 
 a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
 }
 
 h1 {
-  font-family: "Freeman", sans-serif;
+  font-family: "Freeman";
   font-size: x-large;
 }
 
 h2 {
-  font-family: "Freeman", sans-serif;
+  font-family: "Freeman";
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
 }
 
 /* HEADER */
@@ -89,6 +89,10 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.mainindex {
+  background-color: rgba(71, 55, 9, 0.116);
 }
 
 /* GALERIA */
@@ -212,6 +216,7 @@ select {
 }
 
 .tarjetabarbero:hover {
+  background-color: white;
   border: 1px solid black;
   box-shadow: 0px 1px 6px rgb(0, 0, 0);
 }
@@ -221,6 +226,8 @@ select {
 .tarjetabarbero:hover .nombrebarbero,
 .tarjetabarbero:hover .obbarbero,
 .tarjetabarbero:hover .enbarbero {
+  font-family: "Freeman";
+  font-size: large;
   opacity: 1;
   text-decoration: solid;
 }

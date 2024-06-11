@@ -6,15 +6,15 @@
     width: 100%;
 }
 a {
-    font-family: "Roboto", sans-serif;
+    font-family: map-get($fuentes, enlaces);
 }
 h1 {
-    font-family: "Freeman", sans-serif;
-    font-size:x-large;
+    font-family: map-get($fuentes, titulos1);
+    font-size: x-large;
 }
 h2 {
-    font-family: "Freeman", sans-serif;
+    font-family: map-get($fuentes, titulos2);
 }
 p {
-    font-family: "Roboto", sans-serif;
+    font-family: map-get($fuentes, parrafos);
 }
