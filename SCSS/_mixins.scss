@@ -1,3 +1,4 @@
-@mixin tamanios ($alto, $ancho) {
-    
+@mixin flex-center () {
+    display: flex;
+    justify-content: center;
 }

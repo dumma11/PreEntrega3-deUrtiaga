@@ -17,15 +17,13 @@ footer {
 }
 .footer-logo {
     grid-area: areafooterlogo;
-    display: flex;
-    justify-content: center;
+    @include flex-center;
 }
 .footer-enlaces {
     grid-area: areafooterenlaces;
     ul {
         height: 47px;
-        display: flex;
-        justify-content: center;
+        @include flex-center;
         align-items: center;
     }
     li {
@@ -36,9 +34,8 @@ footer {
 .footer-nav ul {
     grid-area: areafooternav;
     list-style-type: none;
-    display: flex;
+    @include flex-center;
     flex-wrap: wrap;
-    justify-content: center;
     height: 40px;
     align-items: center;
     li a {
@@ -50,6 +47,5 @@ footer {
 .footer-datos {
     grid-area: areafooterdatos;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    @include flex-center;
 }

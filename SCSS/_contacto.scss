@@ -14,8 +14,7 @@
 }
 .titulo-contacto {
     grid-area: areatitulo;
-    display: flex;
-    justify-content: center;
+    @include flex-center;
 }
 .mapa-contacto {
     grid-area: areamapa;
@@ -23,9 +22,8 @@
 }
 .datos-contacto {
     grid-area: areadatos;
-    display: flex;
+    @include flex-center;
     flex-direction: column;
-    justify-content: center;
 }
 .formulario-contacto {
     grid-area: areaform;

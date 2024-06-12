@@ -1,7 +1,6 @@
 /* GALERIA */
 .titulo-galeria{
-    display: flex;
-    justify-content: center;
+    @include flex-center;
 }
 .maingaleria {
     background-color: $color-fondo;
