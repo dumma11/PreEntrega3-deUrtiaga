@@ -232,66 +232,24 @@ select {
   text-decoration: solid;
 }
 
-/* SERVICIOS */
-.accordion {
-  --bs-accordion-bg: #d8d8d8; /*Fondo*/
-  --bs-accordion-btn-bg: rgb(218, 218, 218); /*fondo de boton no seleccionado*/
-  --bs-accordion-active-color: rgb(255, 255, 255); /*color de letra seleccionada*/
-  --bs-accordion-active-bg: #837c67; /*color de fondo seleccionado */
-  --bs-accordion-btn-color: rgb(78, 62, 8); /*Letra no seleccionada */
-}
-
 .main-servicios {
-  background-color: rgba(71, 55, 9, 0.116);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: red;
 }
-
-.accordion-body-principal {
-  border: 1px solid #000000;
+.main-servicios .trabajos {
+  border-top: 1px black solid;
 }
-
-.accordion-header-principal {
-  border-top: 1px solid #000000;
-  border-left: 1px solid #000000;
-  border-right: 1px solid #000000;
+.main-servicios .trabajos .serv1-1 {
+  display: grid;
+  grid-template-columns: 90%, 10%;
+  grid-template-rows: 80px repeat(3, 40px);
+  grid-template-areas: "areafooterlogo";
+  padding: 1% 2%;
 }
-
-.titulo-servicios {
-  padding: 20px;
+.main-servicios .premium {
+  border-top: 1px black solid;
 }
-
-.primer-item-interior {
-  background-color: rgba(71, 55, 9, 0.116);
-  margin-top: 2%;
-  border: 1px solid #000000;
-}
-
-.item-interior {
-  background-color: rgba(71, 55, 9, 0.116);
-  margin-top: 1px;
-  border: 1px solid #000000;
-}
-
-.bodyinterno {
-  display: flex;
-}
-
-.body-tex {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.body-video {
-  width: 50%;
-  display: flex;
-  justify-content: end;
-}
-.body-video video {
-  width: 100px;
+.main-servicios .tradicional {
+  border-top: 1px black solid;
 }
 
 @media (max-width: 950px) {
