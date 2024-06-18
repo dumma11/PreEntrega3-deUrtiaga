@@ -233,23 +233,45 @@ select {
 }
 
 .main-servicios {
-  background-color: red;
+  background-color: rgba(71, 55, 9, 0.116);
+}
+.main-servicios .titulo-servicios {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
 }
 .main-servicios .trabajos {
-  border-top: 1px black solid;
+  border: rgba(71, 55, 9, 0.116) solid 30px;
 }
-.main-servicios .trabajos .serv1-1 {
+.main-servicios .trabajos .service {
   display: grid;
-  grid-template-columns: 90%, 10%;
-  grid-template-rows: 80px repeat(3, 40px);
-  grid-template-areas: "areafooterlogo";
+  grid-template-columns: 70%, 20%, 10%;
+  grid-template-rows: 20px 20px;
+  grid-template-areas: "areatituloboton areabotonboton" "areainfoboton areabotonboton";
   padding: 1% 2%;
 }
-.main-servicios .premium {
-  border-top: 1px black solid;
+.main-servicios .trabajos .service .tituloboton {
+  grid-area: areatituloboton;
 }
-.main-servicios .tradicional {
-  border-top: 1px black solid;
+.main-servicios .trabajos .service .infoboton {
+  grid-area: areainfoboton;
+}
+.main-servicios .trabajos .service .accordion-button::after {
+  grid-area: areabotonboton;
+}
+.main-servicios .trabajos .cuerposerv {
+  display: flex;
+  justify-content: space-between;
+}
+.main-servicios .trabajos .cuerposerv .cuerpodescripcion {
+  width: 50%;
+  align-self: center;
+}
+.main-servicios .trabajos .cuerposerv .cuerpodescripcion .reservaboton {
+  color: black;
+}
+.main-servicios .trabajos .cuerposerv .cuerpovideo video {
+  height: 200px;
 }
 
 @media (max-width: 950px) {

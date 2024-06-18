@@ -1,20 +1,44 @@
 .main-servicios {
-    background-color: red;
+    background-color: $color-fondo;
+    .titulo-servicios{
+        padding-top: 30px;
+        @include flex-center;
+    }
     .trabajos{
-        border-top: 1px black solid;
-        .serv1-1{    
+        border: $color-fondo solid 30px;
+        .service{    
             display: grid;
-            grid-template-columns: 90%, 10% ;
-            grid-template-rows: 80px repeat(3, 40px);
+            grid-template-columns: 70%, 20%, 10%;
+            grid-template-rows: 20px 20px;
             grid-template-areas:
-            "areafooterlogo";
+            "areatituloboton areabotonboton"
+            "areainfoboton areabotonboton";
             padding: 1% 2%;
+            .tituloboton{
+                grid-area: areatituloboton;
+            }
+            .infoboton{
+                grid-area: areainfoboton;
+            }
+            .accordion-button::after {
+                grid-area: areabotonboton;
+            }
         }
-    }
-    .premium{
-        border-top: 1px black solid;
-    }
-    .tradicional{
-        border-top: 1px black solid;
+        .cuerposerv{
+            display: flex;
+            justify-content: space-between;
+            .cuerpodescripcion{
+                width: 50%;
+                align-self: center;
+                .reservaboton{
+                    color: black;
+                }
+            }
+            .cuerpovideo{
+                video {
+                    height: 200px;
+                }
+            }
+        }
     }
 }
