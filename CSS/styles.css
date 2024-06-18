@@ -6,10 +6,6 @@
   padding: 0px;
 }
 
-.portada {
-  width: 100%;
-}
-
 a {
   font-family: "Roboto";
 }
@@ -89,6 +85,10 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.portada {
+  width: 100%;
 }
 
 .mainindex {
