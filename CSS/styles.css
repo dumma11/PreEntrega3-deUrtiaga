@@ -232,8 +232,8 @@ select {
 .nombrebarbero,
 .obbarbero,
 .enbarbero {
-  opacity: 0.2;
-  transition: opacity 0.5s;
+  opacity: 0;
+  transition: 0.5s;
 }
 
 .obbarbero {
@@ -247,20 +247,26 @@ select {
 }
 
 .tarjetabarbero:hover {
-  background-color: white;
+  background-color: beige;
   border: 1px solid black;
   box-shadow: 0px 1px 6px rgb(0, 0, 0);
 }
 .tarjetabarbero:hover .barbero {
   width: 240px;
 }
-.tarjetabarbero:hover .nombrebarbero,
+.tarjetabarbero:hover .nombrebarbero {
+  font-family: "Freeman";
+  opacity: 1;
+  text-decoration: solid;
+  font-size: x-large;
+}
 .tarjetabarbero:hover .obbarbero,
 .tarjetabarbero:hover .enbarbero {
   font-family: "Freeman";
-  font-size: large;
   opacity: 1;
   text-decoration: solid;
+  font-size: large;
+  color: white;
 }
 
 .main-servicios {

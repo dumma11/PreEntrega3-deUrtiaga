@@ -22,8 +22,8 @@
 .nombrebarbero,
 .obbarbero,
 .enbarbero {
-    opacity: 0.2;
-    transition: opacity 0.5s;
+    opacity: 0;
+    transition: 0.5s;
 }
 .obbarbero {
     background-color: #837c67;
@@ -35,19 +35,21 @@
 }
 .tarjetabarbero {
     &:hover {
-        background-color: white;
+        background-color: beige;
         border: 1px solid black;
         box-shadow: 0px 1px 6px rgb(0, 0, 0);
         .barbero{
             width: 240px;
         }
-        .nombrebarbero,
+        .nombrebarbero{
+            @include tarjetahover;
+            font-size: x-large;
+        }
         .obbarbero,
         .enbarbero {
-            font-family: map-get($fuentes, titulos1);
+            @include tarjetahover;
             font-size: large;
-            opacity: 1;
-            text-decoration: solid;
+            color: white;
         }
     }
 }
