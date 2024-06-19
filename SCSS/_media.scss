@@ -1,6 +1,4 @@
 @media (max-width:950px) {
-    /*FOOTER*/
-    
     /* GALERIA */
     .maingaleria {
         padding: 30px 5px;
@@ -62,16 +60,20 @@
     }
     .obbarbero {
         width: 200px;
-        /* margin-top: 10px; */
     }
     .barbero {
         width: 180px;
     }
     .tarjetabarbero {
-        height: 380px;
         margin: 0px 5px;
-        &:hover .barbero {
+        &:hover{
+            .obbarbero{
+                font-size: medium;
+            }
+            .barbero {
+                margin: 0px 0px;
                 width: 200px;
-        }
+            }
+        }    
     }
 }
