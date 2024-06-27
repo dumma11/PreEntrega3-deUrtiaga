@@ -2,413 +2,475 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/styles.css">
-    <title>Servicios | ARDIT BARBER SONG</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <title>Servicios | ARDIT BARBER SONG</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" z-3>
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
-                    <img src="../images/logos/logochico.png" alt="Bootstrap" width="50" height="50">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" z-3>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../images/logos/logochico.png" alt="Bootstrap" width="50" height="50">
+        </a>
+        <a class="navbar-brand" href="#">
+          <h1>ARDITI BARBER SONG</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse justify-content-end navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="./servicios.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#serv-clas">Clasicos</a></li>
+                <li><a class="dropdown-item" href="#serv-clasprem">Clasicos Premium</a></li>
+                <li><a class="dropdown-item" href="#serv-trad">Tradicionales</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./equipo.html">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=https://gamulan.com/space/arditi-barber-song target="_blank">Trunos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-servicios">
+
+    <section class="titulo-servicios">
+      <h2>NUESTROS TRABAJOS</h2>
+    </section>
+
+    <section id="serv-clas" class="trabajos">
+      <div>
+        <h2>CLASICOS</h2>
+      </div>
+
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+              <div class="tituloboton">CORTE</div>
+              <div class="infoboton">30 min. - $8500</div>
+            </button>
+          </h2>
+          <div id="flush-collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestro corte clasico es una obra maestra atemporal. Con precisión y estilo, nuestros barberos
+                  perfeccionan tu look tradicional, dándote un toque de elegancia que perdura</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
                 </a>
-                <a class="navbar-brand" href="#">
-                    <h1>ARDITI BARBER SONG</h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse justify-content-end navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="./servicios.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Servicios
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#serv-clas">Clasicos</a></li>
-                                <li><a class="dropdown-item" href="#serv-clasprem">Clasicos Premium</a></li>
-                                <li><a class="dropdown-item" href="#serv-trad">Tradicionales</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./equipo.html">Equipo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./galeria.html">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href=https://gamulan.com/space/arditi-barber-song
-                                target="_blank">Trunos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main class="main-servicios">
-
-      <section class="titulo-servicios">
-        <h2>NUESTROS TRABAJOS</h2>
-      </section>
-
-        <section id="serv-clas" class="trabajos">
-            <div>
-                <h2>CLASICOS</h2>
-            </div>
-
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11"aria-expanded="false" aria-controls="flush-collapse11">
-                        <div class="tituloboton">CORTE</div>
-                        <div class="infoboton">30 min. - $8500</div>
-                    </button>
-                  </h2>
-                  <div id="flush-collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body cuerposerv">
-                      <div class="cuerpodescripcion">
-                        <p>Nuestro corte clasico es una obra maestra atemporal. Con precisión y estilo, nuestros barberos perfeccionan tu look tradicional, dándote un toque de elegancia que perdura</p>
-                        <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                      </div>
-                      <div class="cuerpovideo">
-                        <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse12"aria-expanded="false" aria-controls="flush-collapse12">
-                        <div class="tituloboton">AFEITADO DE CABEZA</div>
-                        <div class="infoboton">30 min. - $6500</div>
-                    </button>
-                  </h2>
-                  <div id="flush-collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body cuerposerv">
-                      <div class="cuerpodescripcion">
-                        <p>Nuestro afeitado de cabeza es una experiencia de lujo. Con la
-                          suavidad de una máquina shaver o la tradición de la espuma y la navaja, te
-                          brindamos un afeitado impecable que resalta tu estilo y frescura.</p>
-                        <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                      </div>
-                      <div class="cuerpovideo">
-                        <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13"aria-expanded="false" aria-controls="flush-collapse13">
-                        <div class="tituloboton">RAPADO A MAQUINA</div>
-                        <div class="infoboton">15 min. - $3500</div>
-                    </button>
-                  </h2>
-                  <div id="flush-collapse13" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body cuerposerv">
-                      <div class="cuerpodescripcion">
-                        <p>Nuestro rapado a máquina es simple y agradable. Con nuestras excelentes
-                          máquinas, te ofrecemos un look impecable con la medida que elijas. Un
-                          estilo sin complicaciones pero con resultados perfectos.</p>
-                        <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                      </div>
-                      <div class="cuerpovideo">
-                        <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse14"aria-expanded="false" aria-controls="flush-collapse14">
-                        <div class="tituloboton">MARCADA DE CORTE</div>
-                        <div class="infoboton">15 min. - $3000</div>
-                    </button>
-                  </h2>
-                  <div id="flush-collapse14" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body cuerposerv">
-                      <div class="cuerpodescripcion">
-                        <p>Nuestra 'Marcada de Corte' es un servicio rápido y efectivo que te
-                          permite mantener tu aspecto impecable en tan solo 15 minutos.
-                          Incluye el contorno de la nuca, eliminación de pelusa, retoque de
-                          cabello en nariz, orejas y cejas, y un peinado perfecto. Mantén tu estilo fresco y listo para lucir en poco tiempo.</p>
-                        <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                      </div>
-                      <div class="cuerpovideo">
-                        <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
-        </section>
-
-        <section id="serv-clasprem" class="trabajos">
-          <div>
-              <h2>CLASICOS PREMIUM</h2>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
           </div>
-
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse21"aria-expanded="false" aria-controls="flush-collapse21">
-                      <div class="tituloboton">CORTE+perf. BARBA, NAVAJA,ESPUMA,TOALLA</div>
-                      <div class="infoboton">50 min. - $13500</div>
-                  </button>
-                </h2>
-                <div id="flush-collapse21" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body cuerposerv">
-                    <div class="cuerpodescripcion">
-                      <p>Nuestro corte clásico y perfilado de barba es una experiencia de auténtica barbería. Con espuma, toallas calientes y la precisión de la navaja, te brindamos un estilo distinguido que realza tu apariencia y tu confianza</p>
-                      <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                    </div>
-                    <div class="cuerpovideo">
-                      <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse22"aria-expanded="false" aria-controls="flush-collapse22">
-                      <div class="tituloboton">CORTE Y AFEITAD0 CON NAVAJA Y TOALLA</div>
-                      <div class="infoboton">1h-10min. - $14000</div>
-                  </button>
-                </h2>
-                <div id="flush-collapse22" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body cuerposerv">
-                    <div class="cuerpodescripcion">
-                      <p>En Arditi's BARBERSONG, cuando eliges un 'corte y afeitado', tienes la libertad de seleccionar tu corte de nuestra carta de clásicos. Luego, disfrutas de una experiencia Old School de afeitado. Te rodeamos de espuma, toallas calientes y maestría con la navaja, brindándote un servicio completo que es mucho más que un simple afeitado. En cada visita,</p>
-                      <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                    </div>
-                    <div class="cuerpovideo">
-                      <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse23"aria-expanded="false" aria-controls="flush-collapse23">
-                      <div class="tituloboton">PERFILADO DE BARBA...con navaja y toalla</div>
-                      <div class="infoboton">30 min. - $7000</div>
-                  </button>
-                </h2>
-                <div id="flush-collapse23" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body cuerposerv">
-                    <div class="cuerpodescripcion">
-                      <p>Nuestro perfilado de barba clásico es todo un ritual de elegancia. Con espuma, toallas calientes y la precisión de la navaja, esculpimos tu barba de manera impecable, dejándote con un look distinguido y bien cuidado.</p>
-                      <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                    </div>
-                    <div class="cuerpovideo">
-                      <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse24"aria-expanded="false" aria-controls="flush-collapse24">
-                      <div class="tituloboton">AFEITADO DE BARBA ...navaja y toalla caliente</div>
-                      <div class="infoboton">50 min. - $7000</div>
-                  </button>
-                </h2>
-                <div id="flush-collapse24" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body cuerposerv">
-                    <div class="cuerpodescripcion">
-                      <p>Nuestro afeitado clásico es una experiencia de lujo. Con espuma, toallas calientes y la precisión de la navaja, te brindamos un afeitado impecable que realza tu estilo y frescura, todo con el toque distintivo de la tradición.</p>
-                      <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                    </div>
-                    <div class="cuerpovideo">
-                      <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse25"aria-expanded="false" aria-controls="flush-collapse25">
-                      <div class="tituloboton">AFEITADO DE CABEZA Y BARBA</div>
-                      <div class="infoboton">60 min. - $12500</div>
-                  </button>
-                </h2>
-                <div id="flush-collapse25" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body cuerposerv">
-                    <div class="cuerpodescripcion">
-                      <p>Nuestro afeitado de cabeza y perfilado de barba clásico es una experiencia completa. Con espuma, toallas calientes y la precisión de la navaja, te brindamos un afeitado impecable y un perfilado de barba que realza tu apariencia con elegancia y frescura</p>
-                      <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                    </div>
-                    <div class="cuerpovideo">
-                      <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-      </section>
-
-      <section id="serv-trad" class="trabajos">
-        <div>
-            <h2>TRADICIONAL</h2>
         </div>
 
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse31"aria-expanded="false" aria-controls="flush-collapse31">
-                    <div class="tituloboton">CORTE Y BARBA perfilado de barba a máquina</div>
-                    <div class="infoboton">45 min. - $12500</div>
-                </button>
-              </h2>
-              <div id="flush-collapse31" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body cuerposerv">
-                  <div class="cuerpodescripcion">
-                    <p>Nuestro corte clásico y perfilado de barba realizado con máquinas de alta calidad te ofrece un estilo impecable y pulido. Nuestros barberos expertos utilizan técnicas precisas para lograr un look distinguido y bien cuidado.</p>
-                    <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                  </div>
-                  <div class="cuerpovideo">
-                    <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                  </div>
-                </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
+              <div class="tituloboton">AFEITADO DE CABEZA</div>
+              <div class="infoboton">30 min. - $6500</div>
+            </button>
+          </h2>
+          <div id="flush-collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestro afeitado de cabeza es una experiencia de lujo. Con la
+                  suavidad de una máquina shaver o la tradición de la espuma y la navaja, te
+                  brindamos un afeitado impecable que resalta tu estilo y frescura.</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
               </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse32"aria-expanded="false" aria-controls="flush-collapse32">
-                    <div class="tituloboton">CORTE Y AFEITADO... afeitado a máquina shaver</div>
-                    <div class="infoboton">40min. - $13000</div>
-                </button>
-              </h2>
-              <div id="flush-collapse32" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body cuerposerv">
-                  <div class="cuerpodescripcion">
-                    <p>Nuestro corte clásico y afeitado tradicional, realizado solo con máquinas de calidad superior, te brinda un look impecable y fresco. Nuestros barberos expertos utilizan técnicas precisas para dejar tu cabello y rostro perfectamente arreglados.</p>
-                    <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                  </div>
-                  <div class="cuerpovideo">
-                    <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse33"aria-expanded="false" aria-controls="flush-collapse33">
-                    <div class="tituloboton">PERFILADO DE BARBA...con máquina</div>
-                    <div class="infoboton">20 min. - $6000</div>
-                </button>
-              </h2>
-              <div id="flush-collapse33" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body cuerposerv">
-                  <div class="cuerpodescripcion">
-                    <p>Nuestro 'Perfilado de Barba con Máquina' es un servicio especializado para mantener tu barba en su mejor forma. Utilizamos máquinas de alta calidad para lograr líneas definidas y un aspecto prolijo. Deja que nuestros expertos cuiden de tu estilo facial</p>
-                    <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                  </div>
-                  <div class="cuerpovideo">
-                    <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse34"aria-expanded="false" aria-controls="flush-collapse34">
-                    <div class="tituloboton">AFEITADO DE BARBA ... con máquinas</div>
-                    <div class="infoboton">30 min. - $6500</div>
-                </button>
-              </h2>
-              <div id="flush-collapse34" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body cuerposerv">
-                  <div class="cuerpodescripcion">
-                    <p>Nuestro afeitado tradicional, realizado solo con máquinas de alta calidad, garantiza un resultado suave y preciso. Nuestros barberos expertos dominan las técnicas para un afeitado impecable</p>
-                    <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                  </div>
-                  <div class="cuerpovideo">
-                    <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse35"aria-expanded="false" aria-controls="flush-collapse35">
-                    <div class="tituloboton">AFEITADO DE CABEZA Y BARBA con máquina</div>
-                    <div class="infoboton">45 min. - $11500</div>
-                </button>
-              </h2>
-              <div id="flush-collapse35" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body cuerposerv">
-                  <div class="cuerpodescripcion">
-                    <p>Nuestro afeitado de cabeza y perfilado de barba, realizado solo con máquinas de calidad superior, te brinda un aspecto fresco y cuidado. Nuestros barberos expertos utilizan tecnicas precisas para lograr resultados impecables</p>
-                    <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank"><p>Reservar</p></a>
-                  </div>
-                  <div class="cuerpovideo">
-                    <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
-                  </div>
-                </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+              <div class="tituloboton">RAPADO A MAQUINA</div>
+              <div class="infoboton">15 min. - $3500</div>
+            </button>
+          </h2>
+          <div id="flush-collapse13" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestro rapado a máquina es simple y agradable. Con nuestras excelentes
+                  máquinas, te ofrecemos un look impecable con la medida que elijas. Un
+                  estilo sin complicaciones pero con resultados perfectos.</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
+              </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapse14">
+              <div class="tituloboton">MARCADA DE CORTE</div>
+              <div class="infoboton">15 min. - $3000</div>
+            </button>
+          </h2>
+          <div id="flush-collapse14" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestra 'Marcada de Corte' es un servicio rápido y efectivo que te
+                  permite mantener tu aspecto impecable en tan solo 15 minutos.
+                  Incluye el contorno de la nuca, eliminación de pelusa, retoque de
+                  cabello en nariz, orejas y cejas, y un peinado perfecto. Mantén tu estilo fresco y listo para lucir en
+                  poco tiempo.</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
+              </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-        
 
-    </main>
+    <section id="serv-clasprem" class="trabajos">
+      <div>
+        <h2>CLASICOS PREMIUM</h2>
+      </div>
 
-    <footer>
-        <section class="footer-logo">
-            <img src="../images/logos/logochico.png" alt="Logo Barberia">
-        </section>
-        <section class="footer-enlaces">
-            <ul>
-                <li><a href=https://www.instagram.com/arditi.barber.song target="_blank"><img
-                            src="../images/logos/instagram2chico.png" alt="ir a instagram"></a></li>
-                <li><a href=https://www.facebook.com/ArditiBarbersong target="_blank"><img
-                            src="../images/logos/facebookchico.png" alt="ir a facebook"></a></li>
-                <li><a href=https://www.whatsapp.com target="_blank"><img src="../images/logos/whatsappchico.png"
-                            alt="ir a whatsapp"></a></li>
-            </ul>
-        </section>
-        <section class="footer-nav">
-            <ul>
-                <li><a href="../paginas/servicios.html">Go Up</a></li>
-                <li><a href="../paginas/equipo.html">Equipo</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="../paginas/galeria.html">Galeria</a></li>
-                <li><a href=https://gamulan.com/space/arditi-barber-song target="_blank">Turnos</a></li>
-                <li><a href="../paginas/contacto.html">Contracto</a></li>
-            </ul>
-        </section>
-        <section class="footer-datos">
-            <p>Teléfono: 02614682518 -</p>
-            <p>- Dirección: Patricias Mendocinas 1235, Mendoza, Capital. CP: 5500</p>
-        </section>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse21" aria-expanded="false" aria-controls="flush-collapse21">
+              <div class="tituloboton">CORTE+perf. BARBA, NAVAJA,ESPUMA,TOALLA</div>
+              <div class="infoboton">50 min. - $13500</div>
+            </button>
+          </h2>
+          <div id="flush-collapse21" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestro corte clásico y perfilado de barba es una experiencia de auténtica barbería. Con espuma,
+                  toallas calientes y la precisión de la navaja, te brindamos un estilo distinguido que realza tu
+                  apariencia y tu confianza</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
+              </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse22" aria-expanded="false" aria-controls="flush-collapse22">
+              <div class="tituloboton">CORTE Y AFEITAD0 CON NAVAJA Y TOALLA</div>
+              <div class="infoboton">1h-10min. - $14000</div>
+            </button>
+          </h2>
+          <div id="flush-collapse22" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>En Arditi's BARBERSONG, cuando eliges un 'corte y afeitado', tienes la libertad de seleccionar tu
+                  corte de nuestra carta de clásicos. Luego, disfrutas de una experiencia Old School de afeitado. Te
+                  rodeamos de espuma, toallas calientes y maestría con la navaja, brindándote un servicio completo que
+                  es mucho más que un simple afeitado. En cada visita,</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
+              </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse23" aria-expanded="false" aria-controls="flush-collapse23">
+              <div class="tituloboton">PERFILADO DE BARBA...con navaja y toalla</div>
+              <div class="infoboton">30 min. - $7000</div>
+            </button>
+          </h2>
+          <div id="flush-collapse23" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestro perfilado de barba clásico es todo un ritual de elegancia. Con espuma, toallas calientes y la
+                  precisión de la navaja, esculpimos tu barba de manera impecable, dejándote con un look distinguido y
+                  bien cuidado.</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
+              </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse24" aria-expanded="false" aria-controls="flush-collapse24">
+              <div class="tituloboton">AFEITADO DE BARBA ...navaja y toalla caliente</div>
+              <div class="infoboton">50 min. - $7000</div>
+            </button>
+          </h2>
+          <div id="flush-collapse24" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestro afeitado clásico es una experiencia de lujo. Con espuma, toallas calientes y la precisión de
+                  la navaja, te brindamos un afeitado impecable que realza tu estilo y frescura, todo con el toque
+                  distintivo de la tradición.</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
+              </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse25" aria-expanded="false" aria-controls="flush-collapse25">
+              <div class="tituloboton">AFEITADO DE CABEZA Y BARBA</div>
+              <div class="infoboton">60 min. - $12500</div>
+            </button>
+          </h2>
+          <div id="flush-collapse25" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestro afeitado de cabeza y perfilado de barba clásico es una experiencia completa. Con espuma,
+                  toallas calientes y la precisión de la navaja, te brindamos un afeitado impecable y un perfilado de
+                  barba que realza tu apariencia con elegancia y frescura</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
+              </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="serv-trad" class="trabajos">
+      <div>
+        <h2>TRADICIONAL</h2>
+      </div>
+
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse31" aria-expanded="false" aria-controls="flush-collapse31">
+              <div class="tituloboton">CORTE Y BARBA perfilado de barba a máquina</div>
+              <div class="infoboton">45 min. - $12500</div>
+            </button>
+          </h2>
+          <div id="flush-collapse31" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestro corte clásico y perfilado de barba realizado con máquinas de alta calidad te ofrece un estilo
+                  impecable y pulido. Nuestros barberos expertos utilizan técnicas precisas para lograr un look
+                  distinguido y bien cuidado.</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
+              </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse32" aria-expanded="false" aria-controls="flush-collapse32">
+              <div class="tituloboton">CORTE Y AFEITADO... afeitado a máquina shaver</div>
+              <div class="infoboton">40min. - $13000</div>
+            </button>
+          </h2>
+          <div id="flush-collapse32" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestro corte clásico y afeitado tradicional, realizado solo con máquinas de calidad superior, te
+                  brinda un look impecable y fresco. Nuestros barberos expertos utilizan técnicas precisas para dejar tu
+                  cabello y rostro perfectamente arreglados.</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
+              </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse33" aria-expanded="false" aria-controls="flush-collapse33">
+              <div class="tituloboton">PERFILADO DE BARBA...con máquina</div>
+              <div class="infoboton">20 min. - $6000</div>
+            </button>
+          </h2>
+          <div id="flush-collapse33" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestro 'Perfilado de Barba con Máquina' es un servicio especializado para mantener tu barba en su
+                  mejor forma. Utilizamos máquinas de alta calidad para lograr líneas definidas y un aspecto prolijo.
+                  Deja que nuestros expertos cuiden de tu estilo facial</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
+              </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse34" aria-expanded="false" aria-controls="flush-collapse34">
+              <div class="tituloboton">AFEITADO DE BARBA ... con máquinas</div>
+              <div class="infoboton">30 min. - $6500</div>
+            </button>
+          </h2>
+          <div id="flush-collapse34" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestro afeitado tradicional, realizado solo con máquinas de alta calidad, garantiza un resultado
+                  suave y preciso. Nuestros barberos expertos dominan las técnicas para un afeitado impecable</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
+              </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed service" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse35" aria-expanded="false" aria-controls="flush-collapse35">
+              <div class="tituloboton">AFEITADO DE CABEZA Y BARBA con máquina</div>
+              <div class="infoboton">45 min. - $11500</div>
+            </button>
+          </h2>
+          <div id="flush-collapse35" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body cuerposerv">
+              <div class="cuerpodescripcion">
+                <p>Nuestro afeitado de cabeza y perfilado de barba, realizado solo con máquinas de calidad superior, te
+                  brinda un aspecto fresco y cuidado. Nuestros barberos expertos utilizan tecnicas precisas para lograr
+                  resultados impecables</p>
+                <a class="reservaboton" href="https://gamulan.com/space/arditi-barber-song" target="_blank">
+                  <p>Reservar</p>
+                </a>
+              </div>
+              <div class="cuerpovideo">
+                <video autoplay loop muted src="../videos/videoejemplo.mp4"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <section class="footer-logo">
+      <img src="../images/logos/logochico.png" alt="Logo footer Barberia">
+    </section>
+    <section class="footer-enlaces">
+      <ul>
+        <li><a href=https://www.instagram.com/arditi.barber.song target="_blank"><img
+              src="../images/logos/instagram2chico.png" alt="ir a instagram"></a></li>
+        <li><a href=https://www.facebook.com/ArditiBarbersong target="_blank"><img
+              src="../images/logos/facebookchico.png" alt="ir a facebook"></a></li>
+        <li><a href=https://www.whatsapp.com target="_blank"><img src="../images/logos/whatsappchico.png"
+              alt="ir a whatsapp"></a></li>
+      </ul>
+    </section>
+    <section class="footer-nav">
+      <ul>
+        <li><a href="./servicios.html">Go Up</a></li>
+        <li><a href="./equipo.html">Equipo</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="./galeria.html">Galeria</a></li>
+        <li><a href=https://gamulan.com/space/arditi-barber-song target="_blank">Turnos</a></li>
+        <li><a href="./contacto.html">Contracto</a></li>
+      </ul>
+    </section>
+    <section class="footer-datos">
+      <p>Teléfono: 02614682518 -</p>
+      <p>- Dirección: Patricias Mendocinas 1235, Mendoza, Capital. CP: 5500</p>
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
