@@ -311,6 +311,12 @@ select {
   height: 200px;
 }
 
+@media (min-width: 1320px) {
+  .equipobarber {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media (max-width: 950px) {
   /* GALERIA */
   .maingaleria {
